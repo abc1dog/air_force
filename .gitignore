@@ -1,0 +1,16 @@
+# 환경변수 파일 (인증키 유출 방지 및 깃허브 업로드 제외)
+.env
+.env.local
+.env.*.local
+
+# Vercel 로컬 빌드 및 설정 파일
+.vercel
+
+# 패키지 매니저 및 시스템 임시 파일
+node_modules
+*.log
+.DS_Store
+Thumbs.db
+
+
+.vercel
